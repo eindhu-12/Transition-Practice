@@ -1,0 +1,25 @@
+body{
+    background-color: darkgrey;
+}
+
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border: 2px solid;
+    box-shadow: 2px 2px 8px green;
+    transition-duration: 10s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+    transition-property:all;
+    
+}
+div:hover{
+    width: 600px;
+    height:600px;
+    background-color: lightpink;
+    box-shadow: 3px 3px 10px blue;
+    border-radius: 70%;
+    background:linear-gradien(green white pink lightgreen);
+}
